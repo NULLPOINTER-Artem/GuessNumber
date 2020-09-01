@@ -16,7 +16,8 @@ for (let i = 1; i <= ATTEMPT; i++) {
             guessed = true;
             break;
         } else {
-            alert(`Осталось попыток ${countAttempts(i)}\nвведенное число ${checkDirectionToHiddenNumber()} от загаданного`);
+            alert('Осталось попыток ' + countAttempts(i) +'\n' +
+            'Введенное число ' + checkDirectionToHiddenNumber() +' от загаданного');
         }
     } else {
         alert('Не верно введены данные!');
